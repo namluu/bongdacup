@@ -1,0 +1,46 @@
+/*
+ * Live football style
+ */
+.eventsListUl {
+  margin: 0 0 10px;
+  list-style: none;
+  text-align: center;
+}
+.eventsListUl li {
+  border-top: 1px solid #cd7e05;
+  padding: 10px 0;
+  margin: 0;
+}
+.eventsListUl li:first-child {
+  border-top: none;
+}
+.eventsListUl li .name {
+  display: block;
+  font-weight: 700;
+  height: 30px;
+  line-height: 30px;
+  text-decoration: none;
+}
+.eventsListUl li .name .col-1,
+.eventsListUl li .name .col-2,
+.eventsListUl li .name .col-3 {
+  float: left;
+  width: 37%;
+}
+.eventsListUl li .name .col-2 {
+  background-color: #9a0c0d;
+  color: #ffffff;
+  width: 26%;
+}
+.eventsListUl li .dopCon {
+  clear: both;
+}
+.eventsListUl li .dopCon .time,
+.eventsListUl li .dopCon .dop {
+  color: #6c6a6a;
+  font-size: 12px;
+  line-height: 25px;
+}
+.eventsListUl li .dopCon img {
+  vertical-align: text-top;
+}

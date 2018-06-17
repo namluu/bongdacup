@@ -1,20 +1,5 @@
 <?php get_header(); ?>
 <?php global $sTemplateURL; ?>
-<div id="main">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <?php dynamic_sidebar('dynamic_bodybanner1') ?>
-            </div>
-        </div>
-        <div class="row visible-lg ad-2-col">
-            <div class="col-md-6">
-                <?php dynamic_sidebar('dynamic_bodybanner2') ?>
-            </div>
-            <div class="col-md-6 text-right">
-                <?php dynamic_sidebar('dynamic_bodybanner3') ?>
-            </div>
-        </div>
         <div class="row">
             <div class="col-md-8">
                 <div class="box-title"><a href="<?php echo get_site_url().'/binh-luan/' ?>">Bình luận</a></div>
